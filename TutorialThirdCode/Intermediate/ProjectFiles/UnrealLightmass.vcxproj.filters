@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{A9578250-D1B0-4900-8A99-DF7939C4FF16}</UniqueIdentifier>
+		</Filter>
+		<None Include="D:\git_repository\UnrealEngine\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{BE410B76-A218-47C1-8D07-1EF5473E6699}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Private\CPUSolver">
+			<UniqueIdentifier>{514C674D-42F6-4978-8E5C-E11ACA702185}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp">
+			<Filter>Private\CPUSolver</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.h">
+			<Filter>Private\CPUSolver</Filter>
+		</ClInclude >
+		<Filter Include="Private\ImportExport">
+			<UniqueIdentifier>{67B550C5-3D87-470E-8994-69328729B865}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp">
+			<Filter>Private\ImportExport</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.h">
+			<Filter>Private\ImportExport</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.cpp">
+			<Filter>Private\ImportExport</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.h">
+			<Filter>Private\ImportExport</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.cpp">
+			<Filter>Private\ImportExport</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.h">
+			<Filter>Private\ImportExport</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.cpp">
+			<Filter>Private\ImportExport</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.h">
+			<Filter>Private\ImportExport</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.cpp">
+			<Filter>Private\ImportExport</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.h">
+			<Filter>Private\ImportExport</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.cpp">
+			<Filter>Private\ImportExport</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.h">
+			<Filter>Private\ImportExport</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.cpp">
+			<Filter>Private\ImportExport</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.h">
+			<Filter>Private\ImportExport</Filter>
+		</ClInclude >
+		<Filter Include="Private\Launch">
+			<UniqueIdentifier>{37F2FAE1-AA2B-4897-9DD8-CD08E02739FA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Launch\stdafx.cpp">
+			<Filter>Private\Launch</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Launch\stdafx.h">
+			<Filter>Private\Launch</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp">
+			<Filter>Private\Launch</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.h">
+			<Filter>Private\Launch</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.cpp">
+			<Filter>Private\Launch</Filter>
+		</ClCompile >
+		<Filter Include="Private\Lighting">
+			<UniqueIdentifier>{CE318F0E-1D11-46E6-9CC2-A6327E52D25B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BuildOptions.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Cache.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Cache.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FinalGather.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Lighting.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PhotonMapping.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PrecomputedVisibility.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Raster.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\SampleVolume.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Texture.h">
+			<Filter>Private\Lighting</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMapping.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\Lighting\VolumeDistanceField.cpp">
+			<Filter>Private\Lighting</Filter>
+		</ClCompile >
+		<Filter Include="Private\LightmassCore">
+			<UniqueIdentifier>{516D75F2-FE5C-451B-955C-47E8EB7C954C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp">
+			<Filter>Private\LightmassCore</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.h">
+			<Filter>Private\LightmassCore</Filter>
+		</ClInclude >
+		<Filter Include="Private\LightmassCore\Math">
+			<UniqueIdentifier>{EEDB2A5C-5B97-4A2F-AD08-74075A20899D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h">
+			<Filter>Private\LightmassCore\Math</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMkDOP.h">
+			<Filter>Private\LightmassCore\Math</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.cpp">
+			<Filter>Private\LightmassCore\Math</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.h">
+			<Filter>Private\LightmassCore\Math</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMathSSE.h">
+			<Filter>Private\LightmassCore\Math</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMOctree.h">
+			<Filter>Private\LightmassCore\Math</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\SFMT.cpp">
+			<Filter>Private\LightmassCore\Math</Filter>
+		</ClCompile >
+		<Filter Include="Private\LightmassCore\Misc">
+			<UniqueIdentifier>{D4CB60A5-0F06-4830-B4C3-ACDA8E03F513}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp">
+			<Filter>Private\LightmassCore\Misc</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.h">
+			<Filter>Private\LightmassCore\Misc</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMHelpers.h">
+			<Filter>Private\LightmassCore\Misc</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMStats.h">
+			<Filter>Private\LightmassCore\Misc</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.cpp">
+			<Filter>Private\LightmassCore\Misc</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.h">
+			<Filter>Private\LightmassCore\Misc</Filter>
+		</ClInclude >
+		<Filter Include="Private\LightmassCore\Templates">
+			<UniqueIdentifier>{21EA045E-DF84-4F7E-8BA3-8A22161D8C70}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h">
+			<Filter>Private\LightmassCore\Templates</Filter>
+		</ClInclude >
+		<Filter Include="Public">
+			<UniqueIdentifier>{23A5C6EA-B7B8-4D6F-84F3-F765007E4AD9}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public\ImportExport.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public\LightmassPublic.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public\MaterialExport.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public\MeshExport.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public\SceneExport.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{ECC14260-9CFF-407F-9CA2-C251BA3A5017}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Resources\Debug-Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<ClInclude Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Resources\resource.h">
+			<Filter>Resources</Filter>
+		</ClInclude >
+		<ResourceCompile Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Resources\Resource.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<Manifest Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Resources\Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Resources\Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+	</ItemGroup>
+</Project>

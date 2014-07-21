@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TutorialThirdCode.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{0D0E9B2E-0930-478D-B8BD-38C5FF998656}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TutorialThirdCode.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TutorialThirdCodeEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{7EEF1B37-F2BC-4873-BEB3-C20BD0270A9E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TutorialThirdCode">
+			<UniqueIdentifier>{E0276346-C503-4EF7-8BF9-0D1CC8A28EFD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TutorialThirdCode\TutorialThirdCode.Build.cs">
+			<Filter>Source\TutorialThirdCode</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TutorialThirdCode\TutorialThirdCode.cpp">
+			<Filter>Source\TutorialThirdCode</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TutorialThirdCode\TutorialThirdCode.h">
+			<Filter>Source\TutorialThirdCode</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TutorialThirdCode\TutorialThirdCodeCharacter.cpp">
+			<Filter>Source\TutorialThirdCode</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TutorialThirdCode\TutorialThirdCodeCharacter.h">
+			<Filter>Source\TutorialThirdCode</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TutorialThirdCode\TutorialThirdCodeGameMode.cpp">
+			<Filter>Source\TutorialThirdCode</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TutorialThirdCode\TutorialThirdCodeGameMode.h">
+			<Filter>Source\TutorialThirdCode</Filter>
+		</ClInclude >
+		<Filter Include="Source\TutorialThirdCode\Resources">
+			<UniqueIdentifier>{601E92CA-239E-4AD5-993A-BCF27987A644}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\TutorialThirdCode\Resources\Windows">
+			<UniqueIdentifier>{AF461FD7-9FFB-443C-93C8-D0C0FC1845D1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TutorialThirdCode\Resources\Windows\TutorialThirdCode.ico">
+			<Filter>Source\TutorialThirdCode\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\TutorialThirdCode\Resources\Windows\TutorialThirdCode.rc">
+			<Filter>Source\TutorialThirdCode\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

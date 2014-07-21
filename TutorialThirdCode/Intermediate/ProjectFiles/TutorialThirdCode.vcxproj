@@ -1,0 +1,1141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Game|Win32">
+			<Configuration>Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Game|x64">
+			<Configuration>Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Editor|Win32">
+			<Configuration>Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Editor|x64">
+			<Configuration>Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Game|Win32">
+			<Configuration>Mac_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Game|x64">
+			<Configuration>Mac_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Editor|Win32">
+			<Configuration>Mac_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Editor|x64">
+			<Configuration>Mac_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Game|Win32">
+			<Configuration>IOS_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Game|x64">
+			<Configuration>IOS_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Editor|Win32">
+			<Configuration>IOS_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Editor|x64">
+			<Configuration>IOS_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Game|Win32">
+			<Configuration>WinRT_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Game|x64">
+			<Configuration>WinRT_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Editor|Win32">
+			<Configuration>WinRT_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Editor|x64">
+			<Configuration>WinRT_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|Win32">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|x64">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|Win32">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|x64">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Game|Win32">
+			<Configuration>Mac_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Game|x64">
+			<Configuration>Mac_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Editor|Win32">
+			<Configuration>Mac_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+			<Configuration>Mac_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|Win32">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|x64">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|Win32">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|x64">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Game|Win32">
+			<Configuration>WinRT_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Game|x64">
+			<Configuration>WinRT_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Editor|Win32">
+			<Configuration>WinRT_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Editor|x64">
+			<Configuration>WinRT_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|Win32">
+			<Configuration>Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|x64">
+			<Configuration>Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|Win32">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|x64">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Game|Win32">
+			<Configuration>Mac_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Game|x64">
+			<Configuration>Mac_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Editor|Win32">
+			<Configuration>Mac_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Editor|x64">
+			<Configuration>Mac_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|Win32">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|x64">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|Win32">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|x64">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Game|Win32">
+			<Configuration>WinRT_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Game|x64">
+			<Configuration>WinRT_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Editor|Win32">
+			<Configuration>WinRT_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Editor|x64">
+			<Configuration>WinRT_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|Win32">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|x64">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Game|Win32">
+			<Configuration>Mac_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Game|x64">
+			<Configuration>Mac_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|Win32">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|x64">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Shipping_Game|Win32">
+			<Configuration>WinRT_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Shipping_Game|x64">
+			<Configuration>WinRT_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Test_Game|Win32">
+			<Configuration>Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Test_Game|x64">
+			<Configuration>Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Test_Game|Win32">
+			<Configuration>Mac_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Test_Game|x64">
+			<Configuration>Mac_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Test_Game|Win32">
+			<Configuration>IOS_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Test_Game|x64">
+			<Configuration>IOS_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Test_Game|Win32">
+			<Configuration>WinRT_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Test_Game|x64">
+			<Configuration>WinRT_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\TutorialThirdCode.uproject" />
+		<None Include="..\..\Source\TutorialThirdCode.Target.cs" />
+		<None Include="..\..\Source\TutorialThirdCodeEditor.Target.cs" />
+		<None Include="..\..\Config\DefaultEditor.ini" />
+		<None Include="..\..\Config\DefaultEngine.ini" />
+		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Config\DefaultInput.ini" />
+		<None Include="..\..\Source\TutorialThirdCode\TutorialThirdCode.Build.cs" />
+		<ClCompile Include="..\..\Source\TutorialThirdCode\TutorialThirdCode.cpp" />
+		<ClInclude Include="..\..\Source\TutorialThirdCode\TutorialThirdCode.h" />
+		<ClCompile Include="..\..\Source\TutorialThirdCode\TutorialThirdCodeCharacter.cpp" />
+		<ClInclude Include="..\..\Source\TutorialThirdCode\TutorialThirdCodeCharacter.h" />
+		<ClCompile Include="..\..\Source\TutorialThirdCode\TutorialThirdCodeGameMode.cpp" />
+		<ClInclude Include="..\..\Source\TutorialThirdCode\TutorialThirdCodeGameMode.h" />
+		<None Include="..\..\Source\TutorialThirdCode\Resources\Windows\TutorialThirdCode.ico" />
+		<ResourceCompile Include="..\..\Source\TutorialThirdCode\Resources\Windows\TutorialThirdCode.rc" />
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{F4F97CCD-9DA7-4EB6-8315-246148C0D7BE}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>TutorialThirdCode</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\TutorialThirdCode-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Win32\UE4Editor-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\TutorialThirdCode-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\TutorialThirdCode-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\TutorialThirdCode-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\IOS\TutorialThirdCodeEditor-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\TutorialThirdCode-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\WinRT\TutorialThirdCodeEditor-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\TutorialThirdCode-Win32-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\TutorialThirdCode-Win64-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\TutorialThirdCode-Mac-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\TutorialThirdCode-IOS-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\IOS\TutorialThirdCodeEditor-IOS-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\TutorialThirdCode-WinRT-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\WinRT\TutorialThirdCodeEditor-WinRT-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\TutorialThirdCode.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\TutorialThirdCode.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\TutorialThirdCode</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\TutorialThirdCode</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\IOS\TutorialThirdCodeEditor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\TutorialThirdCode.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCodeEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCodeEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCodeEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>D:\git_repository\UnrealEngine\Engine\Binaries\WinRT\TutorialThirdCodeEditor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\TutorialThirdCode-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\TutorialThirdCode-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\TutorialThirdCode-Mac-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\TutorialThirdCode-IOS-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\TutorialThirdCode-WinRT-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\TutorialThirdCode-Win32-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\TutorialThirdCode-Win64-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\TutorialThirdCode-Mac-Test</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\TutorialThirdCode-IOS-Test</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Build.bat TutorialThirdCode WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat TutorialThirdCode WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\git_repository\UnrealEngine\Engine\Build\BatchFiles\Clean.bat TutorialThirdCode WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\TutorialThirdCode-WinRT-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);UE_GAME=1;IS_PROGRAM=0;UE_ROCKET=0;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;USE_LOGGING_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=1;WITH_EDITORONLY_DATA=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_ENGINE_DIRECTORY=D:/git_repository/UnrealEngine/Engine/;ORIGINAL_FILE_NAME="TutorialThirdCode.exe";TUTORIALTHIRDCODE_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_RECAST=1;WITH_SPEEDTREE=0;ENGINE_API=;SLATE_API=;INPUTCORE_API=;MESSAGING_API=;NETWORKING_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;RENDERCORE_API=;RHI_API=;SHADERCORE_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;UE_EDITOR=1;USE_NETWORK_PROFILER=1;WITH_SIMPLYGON=0;UNREALED_API=;BSPMODE_API=;DOCUMENTATION_API=;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;XAUDIO2_API=;USERFEEDBACK_API=;COLLECTIONMANAGER_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);D:\git_repository\UnrealEngine\Engine\Source;..\..\Source;..\Build\Win64\TutorialThirdCode\Inc\TutorialThirdCode;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Async;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Concurrency;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Containers;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\GenericPlatform;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\HAL;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Math;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Misc;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\ProfilingDebugging;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization\Json;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Stats;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Templates;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\UObject;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Core\Public\Windows;D:\git_repository\UnrealEngine\Engine\Source\Runtime\CoreUObject\Classes;..\Build\Win64\TutorialThirdCode\Inc\CoreUObject;D:\git_repository\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Blueprint;D:\git_repository\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Misc;D:\git_repository\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Serialization;D:\git_repository\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Templates;D:\git_repository\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\UObject;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Engine\Classes;..\Build\Win64\TutorialThirdCode\Inc\Engine;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Engine\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Engine\Public\AI;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Engine\Public\Landscape;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Engine\Public\Net;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Engine\Public\Slate;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Classes;..\Build\Win64\TutorialThirdCode\Inc\Slate;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public\Docking;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public\DockingFramework;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public\IOS;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public\MultiBox;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public\TableView;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public\Testing;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public\Text;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Slate\Public\TutorialSystem;D:\git_repository\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;..\Build\Win64\TutorialThirdCode\Inc\InputCore;D:\git_repository\UnrealEngine\Engine\Source\Runtime\InputCore\Public;..\Build\Win64\TutorialThirdCode\Inc\Messaging;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Messaging\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Common;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Interfaces;..\Build\Win64\TutorialThirdCode\Inc\Networking;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Networking\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Networking\Public\Common;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces\IPv4;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces\Steam;..\Build\Win64\TutorialThirdCode\Inc\Sockets;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Sockets\Public;..\Build\Win64\TutorialThirdCode\Inc\RenderCore;D:\git_repository\UnrealEngine\Engine\Source\Runtime\RenderCore\Public;..\Build\Win64\TutorialThirdCode\Inc\RHI;D:\git_repository\UnrealEngine\Engine\Source\Runtime\RHI\Public;..\Build\Win64\TutorialThirdCode\Inc\ShaderCore;D:\git_repository\UnrealEngine\Engine\Source\Runtime\ShaderCore\Public;..\Build\Win64\TutorialThirdCode\Inc\AssetRegistry;D:\git_repository\UnrealEngine\Engine\Source\Runtime\AssetRegistry\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\EngineMessages\Classes;..\Build\Win64\TutorialThirdCode\Inc\EngineMessages;D:\git_repository\UnrealEngine\Engine\Source\Runtime\EngineMessages\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\EngineSettings\Classes;..\Build\Win64\TutorialThirdCode\Inc\EngineSettings;D:\git_repository\UnrealEngine\Engine\Source\Runtime\EngineSettings\Public;..\Build\Win64\TutorialThirdCode\Inc\SynthBenchmark;D:\git_repository\UnrealEngine\Engine\Source\Developer\SynthBenchmark\Public;..\Build\Win64\TutorialThirdCode\Inc\Renderer;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Renderer\Public;..\Build\Win64\Inc\TutorialThirdCode;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\CoreUObject;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Engine;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Slate;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\InputCore;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Messaging;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Networking;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Sockets;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\RenderCore;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\RHI;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\ShaderCore;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\AssetRegistry;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\EngineMessages;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\EngineSettings;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\SynthBenchmark;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Renderer;D:\git_repository\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Classes;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\UnrealEd;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Public;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Commandlets;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Dialogs;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Features;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Kismet2;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Layers;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Toolkits;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\BspMode;D:\git_repository\UnrealEngine\Engine\Source\Editor\BspMode\Public;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Documentation;D:\git_repository\UnrealEngine\Engine\Source\Editor\Documentation\Public;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\Projects;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Projects\Public;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Projects\Public\Interfaces;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\SandboxFile;D:\git_repository\UnrealEngine\Engine\Source\Runtime\SandboxFile\Public;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\EditorStyle;D:\git_repository\UnrealEngine\Engine\Source\Editor\EditorStyle\Public;D:\git_repository\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Classes;D:\git_repository\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Interfaces;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\SourceControl;D:\git_repository\UnrealEngine\Engine\Source\Developer\SourceControl\Public;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Classes;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\UnrealEdMessages;D:\git_repository\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Public;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\XAudio2;D:\git_repository\UnrealEngine\Engine\Source\Runtime\Windows\XAudio2\Public;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\UserFeedback;D:\git_repository\UnrealEngine\Engine\Source\Editor\UserFeedback\Public;D:\git_repository\UnrealEngine\Engine\Intermediate\Build\Win64\Inc\CollectionManager;D:\git_repository\UnrealEngine\Engine\Source\Developer\CollectionManager\Public;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
